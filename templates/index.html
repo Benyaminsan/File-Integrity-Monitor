@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>File Integrity Monitor</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-8">
+    <div class="max-w-3xl mx-auto bg-white shadow-lg rounded-xl p-6">
+        <h1 class="text-2xl font-bold text-center mb-6">🛡️ File Integrity Monitoring Dashboard 🛡️</h1>
+
+        <div class="grid grid-cols-3 gap-4 text-center">
+            <div class="p-4 bg-green-100 rounded-lg flex flex-col items-center justify-center space-y-2">
+                <img src="/static/aman.png" alt="Status Aman" width="131" height="152">
+                <p class="text-lg font-semibold text-green-700">Files OK</p>
+                <p class="text-2xl font-bold">{{ summary.safe }}</p>
+            </div>
+            <div class="p-4 bg-yellow-100 rounded-lg flex flex-col items-center justify-center space-y-2">
+                <img src="/static/hati.png" alt="Status Aman" width="131" height="152">
+                <p class="text-lg font-semibold text-yellow-700">Files Corrupted</p>
+                <p class="text-2xl font-bold">{{ summary.corrupted }}</p>
+            </div>
+            <div class="p-4 bg-red-100 rounded-lg flex flex-col items-center justify-center space-y-2">
+                <img src="/static/bahaya.png" alt="Status Aman" width="131" height="152">
+                <p class="text-lg font-semibold text-red-700">Anomalies</p>
+                <p class="text-2xl font-bold">{{ summary.anomalies }}</p>
+            </div>
+        </div>
+
+        <div class="mt-6 text-center">
+            <p class="text-gray-600">Last anomaly detected:</p>
+            <p class="font-mono text-gray-800">{{ summary.last_anomaly }}</p>
+        </div>
+
+        <div class="mt-8 text-center">
+            <a href="/scan" class="bg-blue-500 hover:bg-blue-600 text-white px-5 py-2 rounded-lg shadow-md">
+                Scan Now
+            </a>
+        </div>
+    </div>
+</body>
+</html>
