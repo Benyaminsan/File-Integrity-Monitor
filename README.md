@@ -34,3 +34,7 @@ Sistem ini akan:
   -> Waktu terakhir ada anomali
 
 - Bonus (opsional): buat versi web mini (Flask/Express) untuk menampilkan hasil pemantauan.
+
+Hasil Running Program
+<img width="1011" height="350" alt="image" src="https://github.com/user-attachments/assets/d77efbd5-3a95-4e7b-bb8f-aaa6f43f168d" />
+
