@@ -39,4 +39,9 @@ Hasil Running Program
 ![WhatsApp Image 2025-11-05 at 9 00 45 PM](https://github.com/user-attachments/assets/5bd2e946-8035-46c0-909d-52c1fd96ed3c)
 
 
+<img width="1158" height="900" alt="image" src="https://github.com/user-attachments/assets/2eacf053-8cd7-499b-8458-173c314d9915" />
+
+
+<img width="982" height="731" alt="image" src="https://github.com/user-attachments/assets/0941382a-a7f9-4ae4-bc14-bd1a6da0a26e" />
+
 
