@@ -103,14 +103,4 @@ def analyze_log():
         "last_anomaly": last_anomaly,
     }
 
-if __name__ == "__main__":
-    results = scan_and_detect()
-    print("Hasil pemindaian:")
-    for level, messages in results.items():
-        print(f"\n{level}:")
-        for msg in messages:
-            print(" -", msg)
 
-    summary = analyze_log()
-    print("\nRingkasan log:")
-    print(summary)
