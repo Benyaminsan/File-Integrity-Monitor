@@ -36,5 +36,7 @@ Sistem ini akan:
 - Bonus (opsional): buat versi web mini (Flask/Express) untuk menampilkan hasil pemantauan.
 
 Hasil Running Program
-<img width="1011" height="350" alt="image" src="https://github.com/user-attachments/assets/d77efbd5-3a95-4e7b-bb8f-aaa6f43f168d" />
+![WhatsApp Image 2025-11-05 at 9 00 45 PM](https://github.com/user-attachments/assets/5bd2e946-8035-46c0-909d-52c1fd96ed3c)
+
+
 
